@@ -12,7 +12,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping("api/vi/students")
+@RequestMapping("api/v1/students")
 public class StudentController {
 
     private static final List<Student> STUDENTS = Arrays.asList(
